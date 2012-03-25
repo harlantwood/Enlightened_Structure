@@ -1,13 +1,40 @@
 ---
 layout: default
-title: API -- Trust Exchange, NodeMap, Diff, Merge
+title: Developer's Corner
 ---
 
+Project Matrix
+==============
+
+|                          | Node Stores                 | Node Relationships        | Node Differences      | Node Merging                | Node Visualization       | Node Navigation    | Trust Ratings               |
+|:-------------------------|:---------------------------:|:-------------------------:|:---------------------:|:---------------------------:|:------------------------:|:------------------:|:---------------------------:|
+| [Trust Exchange][]       |                             |                           |                       |                             |                          |                    | &#x2713;                    |
+| [Core Network][]         |                             |                           |                       |                             | &#x2713;                 | &#x2713;           |                             |
+| [ForkDiffMerge][]        |                             |                           |  &#x2713;             |  &#x2713;                   |                          |                    |                             |
+| [Base Paradigm][]        |  &#x2713;                   |  &#x2713;                 |                       |                             |                          |                    |                             |
+
+[Trust Exchange]: /Trust_Exchange
+[ForkDiffMerge]: /ForkDiffMerge
+[Base Paradigm]: /BaseParadigm
+[Core Network]: /Core_Network
+
+<div class="hr-ellipsis">&nbsp;</div>
 
 Enlightened Structure APIs
 ==========================
 
-HTTP API, defined as Rails-style routes:
+The Enlightened Structure technology stack is being implemented as a set of lean HTTP
+APIs. *This is a work in progress, and these APIs are likely to change before their official
+release.*  Your feedback is very welcome -- we want to make these APIs work for you.
+
+HTTP API definitions below are defined as Rails-style routes.  A 2 line introduction to routing in Rails:
+
+<pre class="brush: ruby; gutter: false; toolbar: false">
+  get &quot;/patients/:id&quot; =&gt; &quot;patients#show&quot;
+</pre>
+<p>the GET request is dispatched to the <tt>patients</tt> controller&#8217;s <tt>show</tt> action with <tt>{ :id =&gt; &#8220;17&#8221; }</tt> in <tt>params</tt>.</p>
+
+-- for more information see the [Rails Routing Guide].
 
 NodeMap
 -------
@@ -108,3 +135,4 @@ Trust Exchange
 
 
 [baseparadigm.org]: http://baseparadigm.org/
+[Rails Routing Guide]: http://guides.rubyonrails.org/routing.html

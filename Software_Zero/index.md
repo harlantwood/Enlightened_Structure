@@ -87,14 +87,14 @@ forthcoming applications.
 We Value
 --------
 
-* Reputation economies
-* Content addressable storage
-* Distributability
 * Openness
 * Privacy
 * Autonomy
+* Distributability
+* Content addressable storage
 * Individual data ownership
 * Local storage
+* Meritocracy
 * Freedom
 
 Next Steps

@@ -84,11 +84,18 @@ the technologies described rest on solid, distributed, ultra-scalable informatio
 data layer and our foundations are made to be shared with a rich ecosystem of current and
 forthcoming applications.
 
-Values & Practices
-------------------
+We Value
+--------
 
-Tech based on reputation, content addressable storage, distributability, openness, privacy,
-individual data ownership & local storage, and freedom.
+* Reputation economies
+* Content addressable storage
+* Distributability
+* Openness
+* Privacy
+* Autonomy
+* Individual data ownership
+* Local storage
+* Freedom
 
 Next Steps
 ----------

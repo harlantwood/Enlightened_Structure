@@ -14,8 +14,8 @@ perspectives that can be exchanged and interwoven in a creative network of any s
 create unlimited branches, easily view differences between branches, and merge in changes from other
 versions and authors.
 
-The Software Zero launch rolls up the four main project areas of Enlightened Structure -- [creative
-collaboration](/ForkDiffMerge), [trust and reputation systems](/Trust_Exchange), [visual navigation
+The Software Zero launch rolls up the four main project areas of Enlightened Structure -- creative
+collaboration, [trust and reputation systems](/Trust_Exchange), [visual navigation
 of data](/Core_Network), and the [underlying data graph](/BaseParadigm) -- into one product release.
 We're calling it the "Minimal Awesome Product". That is, it's the basic elements of each of the
 Enlightened Structure project areas that make a great, usable, consumer-oriented web application to

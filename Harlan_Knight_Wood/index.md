@@ -12,7 +12,7 @@ Harlan is committed to creating luminous tools, enabling free and open transform
 
 Harlan brings a decade of software development experience together with a diverse background including years of meditation, and work in various personal transformation systems. 
 
-<a class="readmore" href="http://www.harlanknight.net" target="_blank"><span>HarlanKnight.net website</span></a>.
+<a class="readmore" href="http://www.harlanknight.net" target="_blank"><span>HarlanKnight.net</span></a>.
 
 
 

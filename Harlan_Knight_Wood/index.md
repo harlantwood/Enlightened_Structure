@@ -8,10 +8,10 @@ category: Team
 <a href="/Harlan_Knight_Wood">
 		<img width="150" height="164" src="/IMG/harlan.jpg" class="thumbnail-post alignleft wp-post-image" alt="Harlan Knight Wood" title="Harlan Knight Wood" />	</a>
 		
-Harlan is the creative force behind Enlightened Structure -- his goal is to contribute to humanity's transition from a time of scarcity to a world of full-time creators. As step zero of this project, Harlan has designed and begun implementation of Wikinodes, a massively parallel creative collaboration engine, designed to bring the explosion of crowdsourcing energy to the world's creative projects that Wikipedia has brought to factual information.
+Harlan is committed to creating luminous tools, enabling free and open transformation of organizations, individuals, and the world.  He dreams of an age of enlightened creativity, and the end of scarcity on planet earth.  As step zero of this project, Harlan has been prototyping, prototyping, prototyping on massively parallel creative collaboration solutions, culminating in the current efforts around [Enlightened Structure Software Zero][].  
 
-Harlan brings a decade of software development experience together with a diverse background including many years of work in various personal transformation systems. In addition to software, he is working on an open-IP licensed <a href="http://heartofthesun.net">science fiction movie with spiritual punch</a>.
-<ul>
-  <li><a href="http://www.linkedin.com/in/harlanwood">LinkedIn Resume</a></li>
-  <li><a href="http://www.harlanknight.net">Visions &amp; Projects</a></li>
-</ul>
+Harlan brings a decade of software development experience together with a diverse background including years of meditation, and work in various personal transformation systems.  More at <a class="readmore" href="http://www.harlanknight.net"><span>HarlanKnight.net</span></a>.
+
+
+
+[Enlightened Structure Software Zero]: /Software_Zero

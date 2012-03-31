@@ -1,22 +1,22 @@
 ---
-title: Software Zero - Minimum Viable Product
+title: "Software Zero ::: Technical Architecture"
 author: Harlan Knight Wood, Jack Senechal, Travis Wellman
 layout: post
 ---
 
-We are organizing all of our development efforts around the launching of "[Software Zero][]" -- the minimum viable slice of massively parallel creative collaboration.  
+We are organizing our development efforts around the launching of "[Software Zero][]" -- the minimum viable slice of massively parallel creative collaboration.  
 
 What we are building: 
 
- * A foundation for the full systems -- we have in mind the full-blown vision, and we want to do steps towards that.
- * Composed of thin components which communicate over well-defined HTTP interfaces.
- * The MVP must be compelling: people want to use it, and keep coming back. 
+ * Composed of thin components which communicate over well-defined HTTP interfaces
+ * The MVP must be compelling: people want to use it, and keep coming back
+ * Building on existing components where they exist
 
 Assumptions
 ===========
 
 Publishing
-  : People publish their websites however they choose, eg Wordpress, wikis, Jekyll, etc.
+  : People publish their content however they choose, eg blogs, wikis, Google Docs, etc.
 
 NodeCollective
 ==============
@@ -81,13 +81,17 @@ Rich "edges" connect the nodes, containing:
 Technologies under consideration
 --------------------------------
 
+* [Smallest Federated Wiki][]
+* [Camlistore][]
 * [Riak][]: "An open source, highly scalable, fault-tolerant distributed database"
 * [Bitcask][]: Riak's "Log-Structured Hash Table for Fast Key/Value Data"
 
 
 
-[ForkDiffMerge]: /ForkDiffMerge
 [BaseParadigm]: /BaseParadigm
 [Bitcask]: http://downloads.basho.com/papers/bitcask-intro.pdf
+[Camlistore]: http://camlistore.org
+[ForkDiffMerge]: /ForkDiffMerge
 [Riak]: http://labs.linkfluence.net/nosql/2011/03/07/moving_from_couchdb_to_riak.html
+[Smallest Federated Wiki]: http://fed.wiki.org
 [Software Zero]: /Software_Zero

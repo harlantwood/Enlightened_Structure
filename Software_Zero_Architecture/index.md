@@ -18,12 +18,15 @@ Assumptions
 Publishing
   : People publish their content however they choose, eg blogs, wikis, Google Docs, etc.
 
-NodeCollective
-==============
+Remixing &amp; Merging Changes
+==============================
 
- * The domain owner can give their domain, e.g. nanotechdesertsolar.com, to the commons as a "node collective".
- * This allows the user Steve to visit the nanotechdesertsolar.com node collective, and register his site, nanotechdesertsolar.steve77.com as a nanotechdesertsolar fork.         
- * When a friend of Steve's visits nanotechdesertsolar.com, they see his fork prominently featured, as part of an interactive navigable data visualization of all nodes of interest, according to the specific users' filters, which are drawn from their trust network.
+Authors can drop in JavaScript snippet to make a fork button on their page, and show other available forks (through NodeCollective)
+
+Users submits documents to compare, and a diff is displayed.
+
+Merging is an interactive process that happens on the client side, in the diff tool. The resulting document can be saved to the node store. &nbsp; [read more
+&raquo;](/ForkDiffMerge)
 
 Data Visualization / Data Navigation
 ====================================
@@ -39,15 +42,12 @@ Trust Filters
 
 Information in the data visualization is informed by users' trust ratings of authors and content. &nbsp; [read more &raquo;](/Trust_Exchange)
 
-Remixing &amp; Merging Changes
-==============================
+NodeCollective
+==============
 
-Authors can drop in JavaScript snippet to make a fork button on their page, and show other available forks (through NodeCollective)
-
-Users submits documents to compare, and a diff is displayed.
-
-Merging is an interactive process that happens on the client side, in the diff tool. The resulting document can be saved to the node store. &nbsp; [read more
-&raquo;](/ForkDiffMerge)
+ * The domain owner can give their domain, e.g. nanotechdesertsolar.com, to the commons as a "node collective".
+ * This allows the user Steve to visit the nanotechdesertsolar.com node collective, and register his site, nanotechdesertsolar.steve77.com as a nanotechdesertsolar fork.         
+ * When a friend of Steve's visits nanotechdesertsolar.com, they see his fork prominently featured, as part of an interactive navigable data visualization of all nodes of interest, according to the specific users' filters, which are drawn from their trust network.
 
 Under the Hood
 ==============

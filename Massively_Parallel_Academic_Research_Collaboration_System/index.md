@@ -1,6 +1,6 @@
 ---
 title: Massively Parallel Academic Research System
-author: Harlan Knight Wood
+author: Harlan Knight
 layout: post
 excerpt: Research papers, placed into the public domain with appropriate supporting technology, will allow others to build on these works, while still preserving intellectual ownership of ideas through total transparency and traceability.
 ---

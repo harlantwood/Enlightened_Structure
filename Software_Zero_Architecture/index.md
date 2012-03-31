@@ -1,6 +1,6 @@
 ---
 title: "Software Zero ::: Technical Architecture"
-author: Harlan Knight Wood, Jack Senechal, Travis Wellman
+author: Harlan Knight, Jack Senechal, Travis Wellman
 layout: post
 ---
 

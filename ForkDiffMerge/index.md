@@ -1,6 +1,6 @@
 --- 
 title: ForkDiffMerge
-author: Harlan Knight Wood
+author: Harlan Knight
 layout: post
 ---
 

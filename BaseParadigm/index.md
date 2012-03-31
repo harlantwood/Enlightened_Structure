@@ -1,6 +1,6 @@
 ---
 title: BaseParadigm
-author: Travis Wellman, Harlan Knight Wood, Jack Senechal
+author: Travis Wellman, Harlan Knight, Jack Senechal
 layout: post
 ---
 

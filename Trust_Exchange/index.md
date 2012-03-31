@@ -1,6 +1,6 @@
 --- 
 title: Trust Exchange
-author: Harlan Knight Wood
+author: Harlan Knight
 layout: post
 ---
 

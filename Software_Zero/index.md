@@ -1,6 +1,6 @@
 ---
 title: "Enlightened Structure Software Zero: Global-Scale Collaboration"
-author: Harlan Knight Wood, Jack Senechal, Travis Wellman, Adam Apollo
+author: Harlan Knight, Jack Senechal, Travis Wellman, Adam Apollo
 layout: post
 ---
 

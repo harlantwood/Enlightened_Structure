@@ -21,7 +21,7 @@ Publishing
 Remixing &amp; Merging Changes
 ==============================
 
-Authors can drop in JavaScript snippet to make a fork button on their page, and show other available forks (through NodeCollective)
+Authors can drop in JavaScript snippet to make a fork button on their page, and show other available forks.
 
 Users submits documents to compare, and a diff is displayed.
 

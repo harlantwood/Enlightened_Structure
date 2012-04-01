@@ -14,9 +14,7 @@ category: Team
 <p>Adam is dedicated to Earth healing and Global environmental, social, and economic sustainability.</p>
 
 <ul>
-<li><a href='http://www.linkedin.com/in/adamapollo'>LinkedIn Resume</a></li>
-
-<li><a href='http://www.jovanthunder.com'>Jovan Thunder Design</a></li>
-
-<li><a href='http://www.adamapollo.info'>Sacred Knowledge Database</a></li>
+  <li><a href='http://www.linkedin.com/in/adamapollo'>LinkedIn Resume</a></li>
+  <li><a href='http://www.jovanthunder.com'>Jovan Thunder Design</a></li>
+  <li><a href='http://www.adamapollo.info'>Sacred Knowledge Database</a></li>
 </ul>

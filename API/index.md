@@ -39,9 +39,13 @@ HTTP API definitions below are defined as Rails-style routes.  A 2 line introduc
 NodeMap
 -------
 
+{% highlight ruby %}
+
     post '/' => 'nodes#create'    # POST params: { :content => content_blob }   # returns key
     get  '/:key' => 'nodes#show', :constraints => { :key => CONTENT_ADDRESS }
     get '/' => 'nodes#index'
+
+{% endhighlight %}
 
 BaseParadigm
 ------------

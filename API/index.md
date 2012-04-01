@@ -41,7 +41,8 @@ NodeMap
 
 {% highlight ruby %}
 
-    post '/' => 'nodes#create'    # POST params: { :content => content_blob }   # returns key
+    post '/' => 'nodes#create'    # POST params: { :content => content_blob }   
+                                  # returns key
     get  '/:key' => 'nodes#show', :constraints => { :key => CONTENT_ADDRESS }
     get '/' => 'nodes#index'
 
@@ -89,7 +90,9 @@ NodeSentences
         #        }"
         #    }
 
-    get  '/:key' => 'sentences#show', :constraints => { :key => CONTENT_ADDRESS }
+    get '/:key' => 'sentences#show', 
+        :constraints => { :key => CONTENT_ADDRESS }
+        
     get '/' => 'sentences#index'
 
 {% endhighlight %}
@@ -99,8 +102,9 @@ Diff
 
 {% highlight ruby %}
 
-    get '/nodes/compare/:before..:after', 'nodes#compare_blobs',
-      :constraints => { :before => /#{CONTENT_ADDRESS}/, :after => /#{CONTENT_ADDRESS}/ }
+    get '/nodes/compare/:before..:after', 'nodes#compare_blobs', 
+        :constraints => { :before => /#{CONTENT_ADDRESS}/, 
+                          :after => /#{CONTENT_ADDRESS}/ }
 
     get '/nodes/compare/:before_url..:after_url', 'nodes#compare_from_urls'
 
@@ -111,10 +115,13 @@ Merge
 
 {% highlight ruby %}
 
-    post '/nodes/:id/merge' => 'nodes#merge', :constraints => { :id => /#{CONTENT_ADDRESS}/ }
+    post '/nodes/:id/merge' => 'nodes#merge', 
+        :constraints => { :id => /#{CONTENT_ADDRESS}/ }
         # POST params: { :patch => patch_text }
 
-    get '/nodes/:id/merge/:patch' => 'nodes#merge', :constraints => { :id => /#{CONTENT_ADDRESS}/, :patch => /#{CONTENT_ADDRESS}/ }
+    get '/nodes/:id/merge/:patch' => 'nodes#merge', 
+        :constraints => { :id => /#{CONTENT_ADDRESS}/, 
+                          :patch => /#{CONTENT_ADDRESS}/ }
 
     # todo: merge conflict resolution API
 

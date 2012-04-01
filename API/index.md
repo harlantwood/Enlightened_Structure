@@ -52,6 +52,8 @@ BaseParadigm
 
 See also [baseparadigm.org][]
 
+{% highlight ruby %}
+
     post '/' => 'edges#create'    
         #  POST params: 
         #    { 
@@ -66,8 +68,12 @@ See also [baseparadigm.org][]
     get '/:key' => 'edges#show', :constraints => { :key => CONTENT_ADDRESS }
     get '/' => 'edges#index'
 
+{% endhighlight %}
+
 NodeSentences
 -------------
+
+{% highlight ruby %}
 
     post '/' => 'sentences#create'
         #  format: json|xml|yaml
@@ -86,16 +92,24 @@ NodeSentences
     get  '/:key' => 'sentences#show', :constraints => { :key => CONTENT_ADDRESS }
     get '/' => 'sentences#index'
 
+{% endhighlight %}
+
 Diff
 ----
+
+{% highlight ruby %}
 
     get '/nodes/compare/:before..:after', 'nodes#compare_blobs',
       :constraints => { :before => /#{CONTENT_ADDRESS}/, :after => /#{CONTENT_ADDRESS}/ }
 
     get '/nodes/compare/:before_url..:after_url', 'nodes#compare_from_urls'
 
+{% endhighlight %}
+
 Merge
 -----
+
+{% highlight ruby %}
 
     post '/nodes/:id/merge' => 'nodes#merge', :constraints => { :id => /#{CONTENT_ADDRESS}/ }
         # POST params: { :patch => patch_text }
@@ -104,8 +118,12 @@ Merge
 
     # todo: merge conflict resolution API
 
+{% endhighlight %}
+
 Trust Exchange
 --------------
+
+{% highlight ruby %}
 
     post '/' => 'ratings#create'
         # POST params:
@@ -135,6 +153,8 @@ Trust Exchange
 
     # show ratings of an entity within a category
     get '/entities/:entity/categories/:category' => 'ratings#index'
+
+{% endhighlight %}
 
 
 

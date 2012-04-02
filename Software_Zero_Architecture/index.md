@@ -39,6 +39,18 @@ At a low level, everything rests on node stores and graph edges in content-addre
   * Subject, predicate, object
   * Authors, patterns, assumptions (see also [BaseParadigm][])
   
+External Technologies Under Consideration
+-----------------------------------------
+
+* [Smallest Federated Wiki][]
+* [Camlistore][]
+* [Riak][]: "An open source, highly scalable, fault-tolerant distributed database"
+* [Bitcask][]: Riak's "Log-Structured Hash Table for Fast Key/Value Data"
+
+----
+----
+----
+
 Remixing &amp; Merging Changes
 ------------------------------
 
@@ -50,14 +62,6 @@ NodeCollective
  * The domain owner can give their domain, e.g. nanotechdesertsolar.com, to the commons as a "node collective".
  * This allows the user Steve to visit the nanotechdesertsolar.com node collective, and register his site, nanotechdesertsolar.steve77.com as a nanotechdesertsolar fork.         
  * When a friend of Steve's visits nanotechdesertsolar.com, they see his fork prominently featured, as part of an interactive navigable data visualization of all nodes of interest, according to the specific users' filters, which are drawn from their trust network.
-
-External Technologies Under Consideration
------------------------------------------
-
-* [Smallest Federated Wiki][]
-* [Camlistore][]
-* [Riak][]: "An open source, highly scalable, fault-tolerant distributed database"
-* [Bitcask][]: Riak's "Log-Structured Hash Table for Fast Key/Value Data"
 
 
 

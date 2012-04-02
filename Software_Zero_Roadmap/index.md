@@ -40,7 +40,6 @@ Q4 2012
 
 - Information in the data visualization is informed by users' trust ratings of authors and content.
 
-
 - Visualize and explore the node collection that is the intersection between this node collective (eg “nanotechdesertsolar”) and the viewer's trust network
 
 - Visually discover trending and relevant remixes of content, based on popularity and trust metrics

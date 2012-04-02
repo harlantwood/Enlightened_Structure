@@ -100,12 +100,11 @@ We Value
 Next Steps
 ----------
 
-Enlightened Structure Software Zero is a work in progress. It continues to be developed as a
-volunteer effort, supported by the team's belief in the power of this technology.
+Enlightened Structure Software Zero is being developed as a volunteer effort, 
+supported by our team's belief in the power and promise of these platforms.
 The features we have in the pipeline for our 2012 releases:
 
 - Allow remixing of any page on any website (given appropriate licensing)
-- Compare two versions of a page to easily to see changes and additions
 - Merge all or part of the changes from another version into yours
 - Rate authors and content, resulting in a rich network of trust information
 - Visually discover trending and relevant remixes of content, based on popularity and trust metrics

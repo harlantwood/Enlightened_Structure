@@ -13,11 +13,6 @@ Project Matrix
 | [ForkDiffMerge][]        |                             |                           |  &#x2713;             |  &#x2713;                   |                          |                    |                             |
 | [Base Paradigm][]        |  &#x2713;                   |  &#x2713;                 |                       |                             |                          |                    |                             |
 
-[Trust Exchange]: /Trust_Exchange
-[ForkDiffMerge]: /ForkDiffMerge
-[Base Paradigm]: /BaseParadigm
-[Core Network]: /Core_Network
-
 <div class="hr-ellipsis">&nbsp;</div>
 
 Enlightened Structure APIs
@@ -167,3 +162,8 @@ Trust Exchange
 
 [baseparadigm.org]: http://baseparadigm.org/
 [Rails Routing Guide]: http://guides.rubyonrails.org/routing.html
+[Trust Exchange]: /Trust_Exchange
+[ForkDiffMerge]: /ForkDiffMerge
+[Base Paradigm]: /BaseParadigm
+[Core Network]: /Core_Network
+

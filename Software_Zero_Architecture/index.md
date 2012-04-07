@@ -10,14 +10,14 @@ Enlightened Structure Software Zero is designed to be _the minimum viable slice 
  * Components are open source, with maximally permissive licensing (MIT/GPL or CC0)
  * We strongly prefer to build on existing components where they exist; we create the minimal unaddressed chunks where we see they are most needed
 
+Smallest Federated Wiki
+-----------------------
+From Ward Cunningham, inventor of the original wiki, [Smallest Federated Wiki][] is designed from the ground up for users to be able to fork content from other users.  Supports simple dragging and dropping of text, images, and data *across sites*.  
+
 FreePress
 ---------
  * Up: push your local content up to wiki-like nodes that allow others to fork your content.
  * Down: Crawl creative commons licensed websites and pull down the plain text version of their content.  You own your forks.  Remix as you see fit, and publish what you choose to the creative commons.
-
-Smallest Federated Wiki
------------------------
-From Ward Cunningham, inventor of the original wiki, [Smallest Federated Wiki][] is designed from the ground up for users to be able to fork content from other users.  Supports simple dragging and dropping of text, images, and data *across sites*.  
 
 Radial Node Visualization and Navigation
 ----------------------------------------

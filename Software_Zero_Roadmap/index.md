@@ -27,11 +27,7 @@ Q2 2012
 Q3 2012
 -------
 
-- Visually explore content collections 
-  - Radial node network interface
-  - Navigate the node collections' radial node/edge interface
-  - One node is central, surrounded by nodes of interest to the viewer -- "related" through topic, trust metrics, etc
-  - When you click on a node, it zooms into full view (ie you are on that "page" or node), but navigation is still present around the edges, eg the network is present but compressed around the edges, or hints of the network are present
+- Visually explore and navigate content collections through radial node network interfaces
 
 - Merge changes made in federated wikis back into existing authoring tools (starting with Wordpress)
 

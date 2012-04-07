@@ -19,6 +19,13 @@ Smallest Federated Wiki
 -----------------------
 From Ward Cunningham, inventor of the original wiki, [Smallest Federated Wiki][] is designed from the ground up for users to be able to fork content from other users.  Supports simple dragging and dropping of text, images, and data *across sites*.  
 
+Radial Node Visualization and Navigation
+----------------------------------------
+ * Visually explore content collections 
+ * Navigate the node collections' radial node/edge interface
+ * One node is central, surrounded by nodes of interest to the viewer -- "related" through topic, trust metrics, etc
+ * When you click on a node, it zooms into full view (ie you are on that "page" or node), but navigation is still present around the edges, eg the network is present but compressed around the edges, or hints of the network are present
+
 Trust Filters
 -------------
 

@@ -1,6 +1,6 @@
 ---
 title: "Core Network ::: Architecture"
-author: Harlan Knight, Jack Senechal
+author: Harlan T Wood, Jack Senechal
 layout: post
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Live Prototypes"
-author: Harlan Knight
+author: Harlan T Wood
 layout: post
 ---
 

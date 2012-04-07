@@ -1,6 +1,6 @@
 ---
 title: "Software Zero ::: Roadmap"
-author: Harlan Knight, Jack Senechal
+author: Harlan T Wood, Jack Senechal
 layout: post
 ---
 

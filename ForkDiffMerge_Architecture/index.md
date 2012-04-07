@@ -1,6 +1,6 @@
 --- 
 title: "ForkDiffMerge ::: Architecture"
-author: Harlan Knight
+author: Harlan T Wood
 layout: post
 ---
 

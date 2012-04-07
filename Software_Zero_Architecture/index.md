@@ -24,6 +24,18 @@ Trust Filters
 
 Information in the data visualization is informed by users' trust ratings of authors and content.  [read more &raquo;][Trust_Exchange]
 
+Remixing &amp; Merging Changes
+------------------------------
+
+Merging is an interactive process that happens on the client side, in the diff tool. The resulting document can be saved to the node store. &nbsp; [read more &raquo;][ForkDiffMerge]
+
+NodeCollective
+--------------
+
+ * The domain owner can give their domain, e.g. nanotechdesertsolar.com, to the commons as a "node collective".
+ * This allows the user Steve to visit the nanotechdesertsolar.com node collective, and register his site, nanotechdesertsolar.steve77.com as a nanotechdesertsolar fork.         
+ * When a friend of Steve's visits nanotechdesertsolar.com, they see his fork prominently featured, as part of an interactive navigable data visualization of all nodes of interest, according to the specific users' filters, which are drawn from their trust network.
+
 Graph / Node / Edge Stores
 --------------------------
 
@@ -39,18 +51,6 @@ At a low level, everything rests on node stores and graph edges in content-addre
   * Subject, predicate, object
   * Authors, patterns, assumptions (see also [BaseParadigm][])
   
-Remixing &amp; Merging Changes
-------------------------------
-
-Merging is an interactive process that happens on the client side, in the diff tool. The resulting document can be saved to the node store. &nbsp; [read more &raquo;][ForkDiffMerge]
-
-NodeCollective
---------------
-
- * The domain owner can give their domain, e.g. nanotechdesertsolar.com, to the commons as a "node collective".
- * This allows the user Steve to visit the nanotechdesertsolar.com node collective, and register his site, nanotechdesertsolar.steve77.com as a nanotechdesertsolar fork.         
- * When a friend of Steve's visits nanotechdesertsolar.com, they see his fork prominently featured, as part of an interactive navigable data visualization of all nodes of interest, according to the specific users' filters, which are drawn from their trust network.
-
 External Technologies Under Consideration
 -----------------------------------------
 

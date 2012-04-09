@@ -43,55 +43,6 @@ NodeMap
 
 {% endhighlight %}
 
-BaseParadigm
-------------
-
-See also [baseparadigm.org][]
-
-{% highlight ruby %}
-
-    post '/' => 'edges#create'    
-        #  POST params: 
-        #    { 
-        #      :subjects => subjects_sha512,
-        #      :predicates => predicates_sha512,
-        #      :objects => objects_sha512,
-        #      :authors => authors_sha512,
-        #      :assumptions => assumptions_sha512,
-        #      :patterns => patterns_sha512
-        #    }
-
-    get '/:key' => 'edges#show', :constraints => { :key => CONTENT_ADDRESS }
-    get '/' => 'edges#index'
-
-{% endhighlight %}
-
-NodeSentences
--------------
-
-{% highlight ruby %}
-
-    post '/' => 'sentences#create'
-        #  format: json|xml|yaml
-        #  POST params:
-        #    { :content => arbitrary_data_structure_of_values }
-        #
-        #  eg:
-        #    { :content =>
-        #       "{
-        #           url: 'http://icanhascheezburger.com/',
-        #           name: 'LOLCats Blog',
-        #           categories: ['funny', 'cats', 'pictures']
-        #        }"
-        #    }
-
-    get '/:key' => 'sentences#show', 
-        :constraints => { :key => CONTENT_ADDRESS }
-        
-    get '/' => 'sentences#index'
-
-{% endhighlight %}
-
 Diff
 ----
 
@@ -158,6 +109,29 @@ Trust Exchange
 
 {% endhighlight %}
 
+BaseParadigm
+------------
+
+See also [baseparadigm.org][]
+
+{% highlight ruby %}
+
+    post '/' => 'edges#create'    
+        #  POST params: 
+        #    { 
+        #      :subjects => subjects_sha512,
+        #      :predicates => predicates_sha512,
+        #      :objects => objects_sha512,
+        #      :authors => authors_sha512,
+        #      :assumptions => assumptions_sha512,
+        #      :patterns => patterns_sha512
+        #    }
+
+    get '/:key' => 'edges#show', :constraints => { :key => CONTENT_ADDRESS }
+    get '/' => 'edges#index'
+
+{% endhighlight %}
+
 
 
 [baseparadigm.org]: http://baseparadigm.org/
@@ -166,4 +140,3 @@ Trust Exchange
 [ForkDiffMerge]: /ForkDiffMerge
 [Base Paradigm]: /BaseParadigm
 [Core Network]: /Core_Network
-

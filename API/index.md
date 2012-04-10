@@ -22,7 +22,7 @@ The Enlightened Structure technology stack is being implemented as a set of lean
 APIs. *This is a work in progress, and these APIs are likely to change before their official
 release.*  Your feedback is very welcome -- we want to make these APIs work for you.
 
-HTTP API definitions below are defined as Rails-style routes.  Here is a 2 line introduction to routing in Rails:
+HTTP API definitions below are defined as Rails-style routes.  Here is a two line introduction to routing in Rails:
 
 {% highlight ruby %}
 

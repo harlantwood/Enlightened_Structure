@@ -24,9 +24,12 @@ release.*  Your feedback is very welcome -- we want to make these APIs work for 
 
 HTTP API definitions below are defined as Rails-style routes.  A 2 line introduction to routing in Rails:
 
-<pre class="brush: ruby; gutter: false; toolbar: false">
-  get &quot;/patients/:id&quot; =&gt; &quot;patients#show&quot;
-</pre>
+{% highlight ruby %}
+
+    get "/patients/:id" => "patients#show"
+
+{% endhighlight %}
+
 <p>the GET request is dispatched to the <tt>patients</tt> controller&#8217;s <tt>show</tt> action with <tt>{ :id =&gt; &#8220;17&#8221; }</tt> in <tt>params</tt>.</p>
 
 -- for more information see the [Rails Routing Guide].

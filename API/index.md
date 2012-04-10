@@ -30,9 +30,9 @@ HTTP API definitions below are defined as Rails-style routes.  Here is a two lin
 
 {% endhighlight %}
 
-<p>the GET request is dispatched to the <tt>patients</tt> controller&#8217;s <tt>show</tt> action with <tt>{ :id =&gt; &#8220;17&#8221; }</tt> in <tt>params</tt>.</p>
+The GET request is dispatched to the <tt>patients</tt> controller's <tt>show</tt> action with <tt>{ :id =&gt; &#8220;17&#8221; }</tt> in <tt>params</tt>.
 
--- for more information see the [Rails Routing Guide].
+For more information see the [Rails Routing Guide].
 
 Definitions
 -----------
@@ -64,7 +64,7 @@ Simple key-value store for nodes.
 Compare
 -------
 
-Compares the *content* of two nodes, and if they are in some sense "equal" -- for example, by converting markdown to html, or by stripping whitespace from both nodes.
+Compares the *content* of two nodes, and determine if the contents are in some sense "equal" -- for example, by converting markdown to html, or by stripping whitespace from both nodes.
 
 {% highlight ruby %}
 

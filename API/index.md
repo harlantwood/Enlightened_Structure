@@ -11,7 +11,7 @@ Project Matrix
 | [Trust Exchange][]       |                             |                           |                       |                             |                          |                    | &#x2713;                    |
 | [Core Network][]         |                             |                           |                       |                             | &#x2713;                 | &#x2713;           |                             |
 | [ForkDiffMerge][]        |                             |                           |  &#x2713;             |  &#x2713;                   |                          |                    |                             |
-| [Base Paradigm][]        |  &#x2713;                   |  &#x2713;                 |                       |                             |                          |                    |                             |
+| [BaseParadigm][]        |  &#x2713;                   |  &#x2713;                 |                       |                             |                          |                    |                             |
 
 <div class="hr-ellipsis">&nbsp;</div>
 
@@ -37,7 +37,7 @@ HTTP API definitions below are defined as Rails-style routes.  Here is a two lin
 Definitions
 -----------
 
-In the examples below, *CONTENT_ADDRESS* is a SHA-512 of the content it represents.
+In the examples below, *ADDRESS_PATTERN* is a regular expression that matches common known cryptographic hash digest formats, eg SHA-1, SHA-512, etc.
 
 NodeMap
 -------
@@ -54,8 +54,8 @@ Simple key-value store for nodes.
         #
         # Returns key, in SHA-512 format
 
-    get  '/:key'         => 'nodes#show', :constraints => { :key => /#{CONTENT_ADDRESS}/ }
-    get  '/:key.:format' => 'nodes#show', :constraints => { :key => /#{CONTENT_ADDRESS}/ }
+    get  '/:key'         => 'nodes#show', :constraints => { :key => ADDRESS_PATTERN }
+    get  '/:key.:format' => 'nodes#show', :constraints => { :key => ADDRESS_PATTERN }
     
     get '/' => 'nodes#index'
 
@@ -69,8 +69,8 @@ Compares the *content* of two nodes, and if they are in some sense "equal" -- fo
 {% highlight ruby %}
 
     get '/:node1/:node2' => 'nodes#compare', 
-        :constraints => { :node1 => /#{CONTENT_ADDRESS}/, 
-                          :node2 => /#{CONTENT_ADDRESS}/ }
+        :constraints => { :node1 => ADDRESS_PATTERN, 
+                          :node2 => ADDRESS_PATTERN }
 
     post '/' => 'nodes#compare_from_urls'
         # Required POST parameters:
@@ -88,8 +88,8 @@ Diff
 {% highlight ruby %}
 
     get '/:before..:after' => 'nodes#diff', 
-        :constraints => { :before => /#{CONTENT_ADDRESS}/, 
-                          :after => /#{CONTENT_ADDRESS}/ }
+        :constraints => { :before => ADDRESS_PATTERN, 
+                          :after  => ADDRESS_PATTERN }
 
     post '/' => 'nodes#diff_from_urls'
         # Required POST parameters:
@@ -107,13 +107,13 @@ Merge
 {% highlight ruby %}
 
     post '/nodes/:id/merge' => 'nodes#merge', 
-        :constraints => { :id => /#{CONTENT_ADDRESS}/ }
+        :constraints => { :id => ADDRESS_PATTERN }
         # Required POST parameters:
         #     :patch   # in standard unix patch format
 
     get '/nodes/:id/merge/:patch' => 'nodes#merge', 
-        :constraints => { :id => /#{CONTENT_ADDRESS}/, 
-                          :patch => /#{CONTENT_ADDRESS}/ }
+        :constraints => { :id    => ADDRESS_PATTERN, 
+                          :patch => ADDRESS_PATTERN }
 
     # todo: merge conflict resolution API
 
@@ -131,7 +131,7 @@ Trust Exchange
         #     :rating                 # eg 0.77 (in the range 0..1)
         #     :source_domain          # eg jacksenechal.com
 
-    get  '/:key' => 'ratings#show', :constraints => { :key => CONTENT_ADDRESS }
+    get  '/:key' => 'ratings#show', :constraints => { :key => ADDRESS_PATTERN }
 
     # show recent ratings of interest
     get '/' => 'ratings#index'
@@ -156,7 +156,7 @@ Trust Exchange
 BaseParadigm
 ------------
 
-See also [baseparadigm.org][]
+Under the hood, everything is stored as nodes and edges in [BaseParadigm][].  Note that BaseParadigm operates exclusively with SHA-512 keys.
 
 {% highlight ruby %}
 
@@ -169,16 +169,15 @@ See also [baseparadigm.org][]
         #      :assumptions_sha512
         #      :patterns_sha512
 
-    get '/:key' => 'edges#show', :constraints => { :key => CONTENT_ADDRESS }
+    get '/:key' => 'edges#show', :constraints => { :key => ADDRESS_PATTERN }
     get '/' => 'edges#index'
 
 {% endhighlight %}
 
 
 
-[baseparadigm.org]: http://baseparadigm.org/
+[BaseParadigm]: /BaseParadigm
+[ForkDiffMerge]: /ForkDiffMerge
 [Rails Routing Guide]: http://guides.rubyonrails.org/routing.html
 [Trust Exchange]: /Trust_Exchange
-[ForkDiffMerge]: /ForkDiffMerge
-[Base Paradigm]: /BaseParadigm
 [Core Network]: /Core_Network

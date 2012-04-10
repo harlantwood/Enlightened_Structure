@@ -34,15 +34,51 @@ HTTP API definitions below are defined as Rails-style routes.  Here is a two lin
 
 -- for more information see the [Rails Routing Guide].
 
+Definitions
+-----------
+
+In the examples below, *CONTENT_ADDRESS* is a SHA-512 of the content it represents.
+
 NodeMap
 -------
 
+Simple key-value store for nodes.  
+
 {% highlight ruby %}
 
-    post '/' => 'nodes#create'    # POST params: { :content => content_blob }   
-                                  # returns key
-    get  '/:key' => 'nodes#show', :constraints => { :key => CONTENT_ADDRESS }
+    post '/' => 'nodes#create'
+        # Required POST parameters:
+        #     :content
+        # Optional POST parameters:
+        #     :format_mime_type
+        #
+        # Returns key, in SHA-512 format
+
+    get  '/:key'         => 'nodes#show', :constraints => { :key => /#{CONTENT_ADDRESS}/ }
+    get  '/:key.:format' => 'nodes#show', :constraints => { :key => /#{CONTENT_ADDRESS}/ }
+    
     get '/' => 'nodes#index'
+
+{% endhighlight %}
+
+Compare
+-------
+
+Compares the *content* of two nodes, and if they are in some sense "equal" -- for example, by converting markdown to html, or by stripping whitespace from both nodes.
+
+{% highlight ruby %}
+
+    get '/:node1/:node2' => 'nodes#compare', 
+        :constraints => { :node1 => /#{CONTENT_ADDRESS}/, 
+                          :node2 => /#{CONTENT_ADDRESS}/ }
+
+    post '/' => 'nodes#compare_from_urls'
+        # Required POST parameters:
+        #     :node1_url  # eg http://mydomain.com/food.html
+        #     :node1_url  # eg http://someguy.com/food-remix.html
+        #
+        # This POST creates nodes for the content at the given URLs if necessary,
+        # and redirects to the canonical node compare GET url above
 
 {% endhighlight %}
 
@@ -51,11 +87,17 @@ Diff
 
 {% highlight ruby %}
 
-    get '/nodes/compare/:before..:after', 'nodes#compare_blobs', 
+    get '/:before..:after' => 'nodes#diff', 
         :constraints => { :before => /#{CONTENT_ADDRESS}/, 
                           :after => /#{CONTENT_ADDRESS}/ }
 
-    get '/nodes/compare/:before_url..:after_url', 'nodes#compare_from_urls'
+    post '/' => 'nodes#diff_from_urls'
+        # Required POST parameters:
+        #     :before_url  # eg http://mydomain.com/food.html
+        #     :after_url   # eg http://someguy.com/food-remix.html
+        #
+        # This POST creates nodes for the content at the given URLs if necessary,
+        # and redirects to the canonical node diff GET url above
 
 {% endhighlight %}
 
@@ -66,7 +108,8 @@ Merge
 
     post '/nodes/:id/merge' => 'nodes#merge', 
         :constraints => { :id => /#{CONTENT_ADDRESS}/ }
-        # POST params: { :patch => patch_text }
+        # Required POST parameters:
+        #     :patch   # in standard unix patch format
 
     get '/nodes/:id/merge/:patch' => 'nodes#merge', 
         :constraints => { :id => /#{CONTENT_ADDRESS}/, 
@@ -82,13 +125,11 @@ Trust Exchange
 {% highlight ruby %}
 
     post '/' => 'ratings#create'
-        # POST params:
-        # {
-        #    :entity => entity_name,            # eg google.com
-        #    :category => category_name,        # eg integrity
-        #    :rating => [0..1]                  # eg 0.77
-        #    :source => source_domain           # eg jacksenechal.com
-        # }
+        # Required POST parameters:
+        #     :entity_name            # eg google.com
+        #     :category_name          # eg integrity
+        #     :rating                 # eg 0.77 (in the range 0..1)
+        #     :source_domain          # eg jacksenechal.com
 
     get  '/:key' => 'ratings#show', :constraints => { :key => CONTENT_ADDRESS }
 
@@ -121,14 +162,12 @@ See also [baseparadigm.org][]
 
     post '/' => 'edges#create'    
         #  POST params: 
-        #    { 
-        #      :subjects => subjects_sha512,
-        #      :predicates => predicates_sha512,
-        #      :objects => objects_sha512,
-        #      :authors => authors_sha512,
-        #      :assumptions => assumptions_sha512,
-        #      :patterns => patterns_sha512
-        #    }
+        #      :subjects_sha512
+        #      :predicates_sha512
+        #      :objects_sha512
+        #      :authors_sha512
+        #      :assumptions_sha512
+        #      :patterns_sha512
 
     get '/:key' => 'edges#show', :constraints => { :key => CONTENT_ADDRESS }
     get '/' => 'edges#index'

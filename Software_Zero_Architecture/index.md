@@ -10,14 +10,25 @@ Enlightened Structure Software Zero is designed to be _the minimum viable slice 
  * Components are open source, with maximally permissive licensing (MIT/GPL or CC0)
  * We strongly prefer to build on existing components where they exist; we create the minimal unaddressed chunks where we see they are most needed
 
-Smallest Federated Wiki
------------------------
-From Ward Cunningham, inventor of the original wiki, [Smallest Federated Wiki][] is designed from the ground up for users to be able to fork content from other users.  Supports simple dragging and dropping of text, images, and data *across sites*.  
+Open Your Project
+-----------------
 
-FreePress
----------
- * Up: push your local content up to wiki-like nodes that allow others to fork your content.
- * Down: Crawl creative commons licensed websites and pull down the plain text version of their content.  You own your forks.  Remix as you see fit, and publish what you choose to the creative commons.
+- Allow users to clone Creative Commons licensed material to [Smallest Federated Wiki][] instances
+
+- Claiming a domain or subdomain -- eg jacksenechal.openyourproject.org -- automatically claims all of its subdomains, so the user can have:
+  - project1.jacksenechal.openyourproject.org
+  - project2.jacksenechal.openyourproject.org
+  - project3.jacksenechal.openyourproject.org
+
+- For example, Jack can clone the content from http://liveingreatness.com to liveingreatness.jacksenechal.openyourproject.org
+
+- The site is crawled, all content pages come over
+
+- An index page is created, so links to all pages are easily accessible
+
+- At the time of forking, the user can choose between stripping content down to plain text, or keeping simple HTML (notably tables).
+  
+- Possibly plug into existing radial node visualization systems like [Pearltrees][]
 
 Radial Node Visualization and Navigation
 ----------------------------------------
@@ -62,15 +73,7 @@ At a low level, everything rests on node stores and graph edges in content-addre
   * Subject, predicate, object
   * Authors, patterns, assumptions (see also [BaseParadigm][])
   
-External Technologies Under Consideration
------------------------------------------
-
-* [Smallest Federated Wiki][]
-* [Camlistore][]
-* [Riak][]: "An open source, highly scalable, fault-tolerant distributed database"
-* [Bitcask][]: Riak's "Log-Structured Hash Table for Fast Key/Value Data"
-
-
+  
 
 [BaseParadigm]: /BaseParadigm
 [Bitcask]: http://downloads.basho.com/papers/bitcask-intro.pdf

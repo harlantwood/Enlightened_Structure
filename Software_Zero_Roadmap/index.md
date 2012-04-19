@@ -1,6 +1,6 @@
 ---
 title: "Software Zero ::: Roadmap"
-author: Harlan T Wood, Jack Senechal
+author: Harlan T Wood
 layout: post
 ---
 
@@ -9,12 +9,18 @@ This is a living roadmap.  In general, the targets closer to "now" are more stab
 The versions that we release, even in alpha and beta, must be compelling: people want to use it, and keep coming back.
 
 
-Q2 2012
--------
+Spring 2012: Open Your Project
+------------------------------
+
+* Crawl creative commons licensed websites and clone the content into editable wiki instances.  Each curator can edit independently, and merge in the edits they like from other curators' versions. 
+* Each content collection is a [Smallest Federated Wiki][] (SFW) instance -- a new kind of wiki from Ward Cunningham, inventor of the original wiki, designed from the ground up for global-scale collaboration around rich content.  SFW supports simple dragging and dropping of text, images, and data *between SFW instnaces*, even those running on different servers.  
+
+Summer 2012
+-----------
 
 - Allow cloning (forking) and remixing websites in the creative commons, as a collection of pages
 
-- Publish this collection to an appropriate subdomain, e.g. your-project.your-name.softwarezero.cc
+- Publish this collection to an appropriate subdomain, e.g. your-project.your-name.commons.cc
 
 - Other users can clone (fork) your collections, and curate them independently
 
@@ -24,15 +30,15 @@ Q2 2012
   - Authors can drop a JavaScript snippet into their site, which creates a "Remix" button on their page
   - Content curators can directly clone (fork) sites in the creative commons, through command line tools, website, and/or browser plugin
 
-Q3 2012
--------
+Fall 2012
+---------
 
 - Visually explore and navigate content collections through radial node network interfaces
 
 - Merge changes made in federated wikis back into existing authoring tools (starting with Wordpress)
 
-Q4 2012
--------
+Winter 2012
+-----------
 
 - Information in the data visualization is informed by users' trust ratings of authors and content.
 
@@ -48,3 +54,7 @@ Q4 2012
 - Merging is an interactive process that happens on the client side, in the diff tool
 
 - "Node Collectives" allow the creation of distributed ownership of information on a given topic, serving up the items of the greatest interest to the individual visitor
+
+
+[Pearltrees]: http://www.pearltrees.com/#/N-fa=4899494&N-u=1_611709&N-p=41417635&N-s=1_4899504&N-f=1_4899504
+[Smallest Federated Wiki]: https://github.com/WardCunningham/Smallest-Federated-Wiki#readme

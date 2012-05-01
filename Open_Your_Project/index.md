@@ -1,3 +1,9 @@
+---
+title: "Open Your Project ::: Technical Architecture"
+author: Harlan T Wood
+layout: post
+---
+
 Open Your Project
 =================
 

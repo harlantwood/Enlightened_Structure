@@ -5,7 +5,7 @@ layout: post
 ---
 
 Open Your Project
-=================
+-----------------
 
 - octopress skin
 - sample node viz on right

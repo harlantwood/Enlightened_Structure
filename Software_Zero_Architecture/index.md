@@ -28,7 +28,7 @@ Open Your Project
 
 - At the time of forking, the user can choose between stripping content down to plain text, or keeping simple HTML (notably tables).
   
-- Possibly plug into existing radial node visualization systems like [Pearltrees][]
+- Visualization system to drill down into curators, collections, and pages.
 
 Radial Node Visualization and Navigation
 ----------------------------------------

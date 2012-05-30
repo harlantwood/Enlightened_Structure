@@ -104,7 +104,7 @@ This is a living roadmap.  In general, the targets closer to "now" are more stab
 
 The versions that we release, even in alpha and beta, must be compelling: people want to use the software, and become its advocates.  
 
-### Spring 2012: Open Your Project
+### 30 June 2012: Open Your Project private beta
 
 * Crawl creative commons licensed websites and clone the content into editable wiki instances.  Each curator can edit independently, and merge in the edits they like from other curators' versions. 
 * Each content collection is a [Smallest Federated Wiki][] (SFW) instance -- a new kind of wiki from Ward Cunningham, inventor of the original wiki, designed from the ground up for global-scale collaboration around rich content.  SFW supports simple dragging and dropping of text, images, and data *between SFW instances*, even those running on different servers.  

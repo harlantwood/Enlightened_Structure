@@ -1,20 +1,3 @@
----
-layout: default
-title: Developer's Corner
----
-
-Project Matrix
-==============
-
-|                          | Node Stores                 | Node Relationships        | Node Differences      | Node Merging                | Node Visualization       | Node Navigation    | Trust Ratings               |
-|:-------------------------|:---------------------------:|:-------------------------:|:---------------------:|:---------------------------:|:------------------------:|:------------------:|:---------------------------:|
-| [Trust Exchange][]       |                             |                           |                       |                             |                          |                    | &#x2713;                    |
-| [Core Network][]         |                             |                           |                       |                             | &#x2713;                 | &#x2713;           |                             |
-| [ForkDiffMerge][]        |                             |                           |  &#x2713;             |  &#x2713;                   |                          |                    |                             |
-| [BaseParadigm][]        |  &#x2713;                   |  &#x2713;                 |                       |                             |                          |                    |                             |
-
-<div class="hr-ellipsis">&nbsp;</div>
-
 Enlightened Structure APIs
 ==========================
 

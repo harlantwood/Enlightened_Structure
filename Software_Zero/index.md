@@ -154,4 +154,4 @@ supported by our team's belief in the power and promise of these platforms.
 
 
 [Pearltrees]: http://www.pearltrees.com/#/N-fa=4899494&N-u=1_611709&N-p=41417635&N-s=1_4899504&N-f=1_4899504
-[Smallest Federated Wiki]: https://github.com/WardCunningham/Smallest-Federated-Wiki#readme
+  

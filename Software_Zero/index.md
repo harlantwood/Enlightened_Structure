@@ -128,7 +128,7 @@ The versions that we release, even in alpha and beta, must be compelling: people
 
 - Visually explore and navigate content collections through radial node network interfaces
 
-- Merge changes made in federated wikis back into existing authoring tools (starting with Wordpress)
+- Merge remixed versions back into existing authoring tools (starting with Wordpress)
 
 ### Winter 2012
 

@@ -107,43 +107,29 @@ The versions that we release, even in alpha and beta, must be compelling: people
 ### 30 June 2012: limited private alpha
 
 - Crawl creative commons licensed websites into your own curated collections
+- Publish this collection to an appropriate subdomain, e.g. your-project.your-name.openyourproject.org
 - Remix the content as inspired
 - Each curator can edit independently, and merge in the edits they like from other curators' versions
 
-### Fall 2012
+### 2012
 
-- Allow cloning (forking) and remixing websites in the creative commons, as a collection of pages
+- Compare two versions of a page to easily to see changes and additions
 
-- Publish this collection to an appropriate subdomain, e.g. your-project.your-name.commons.cc
-
-- Other users can clone (fork) your collections, and curate them independently
-
-- Merge all or part of the changes from another user's version of a given collection back into your version
-
-- Forking can happen in two ways: 
-  - Authors can drop a JavaScript snippet into their site, which creates a "Remix" button on their page
-  - Content curators can directly clone (fork) sites in the creative commons, through command line tools, website, and/or browser plugin
+- Authors can drop a JavaScript snippet into their site, which creates a "Remix" button on their page
 
 - Visually explore and navigate content collections through radial node network interfaces
 
 - Merge remixed versions back into existing authoring tools (starting with Wordpress)
 
-### Winter 2012
-
 - Information in the data visualization is informed by users' trust ratings of authors and content.
-
-- Visualize and explore the node collection that is the intersection between this node collective (eg “nanotechdesertsolar”) and the viewer's trust network
-
-- Visually discover trending and relevant remixes of content, based on popularity and trust metrics
 
 ### 2013
 
-- Compare two versions of a page to easily to see changes and additions
-
-- Merging is an interactive process that happens on the client side, in the diff tool
+- Visually discover trending and relevant remixes of content, based on popularity and trust metrics
 
 - "Node Collectives" allow the creation of distributed ownership of information on a given topic, serving up the items of the greatest interest to the individual visitor
 
+- Add your feature request here...
 
 Open Source Ethos
 -----------------

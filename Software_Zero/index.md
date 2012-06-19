@@ -104,13 +104,13 @@ This is a living roadmap.  In general, the targets closer to "now" are more stab
 
 The versions that we release, even in alpha and beta, must be compelling: people want to use the software, and become its advocates.  
 
-### 30 June 2012: limited private beta
+### 30 June 2012: limited private alpha
 
 - Crawl creative commons licensed websites into your own curated collections
 - Remix the content as inspired
 - Each curator can edit independently, and merge in the edits they like from other curators' versions
 
-### Summer 2012
+### Fall 2012
 
 - Allow cloning (forking) and remixing websites in the creative commons, as a collection of pages
 
@@ -123,8 +123,6 @@ The versions that we release, even in alpha and beta, must be compelling: people
 - Forking can happen in two ways: 
   - Authors can drop a JavaScript snippet into their site, which creates a "Remix" button on their page
   - Content curators can directly clone (fork) sites in the creative commons, through command line tools, website, and/or browser plugin
-
-### Fall 2012
 
 - Visually explore and navigate content collections through radial node network interfaces
 

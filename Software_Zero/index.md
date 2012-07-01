@@ -104,13 +104,6 @@ This is a living roadmap.  In general, the targets closer to "now" are more stab
 
 The versions that we release, even in alpha and beta, must be compelling: people want to use the software, and become its advocates.  
 
-### 30 June 2012: limited private alpha
-
-- Crawl creative commons licensed websites into your own curated collections
-- Publish this collection to an appropriate subdomain, e.g. your-project.your-name.openyourproject.org
-- Remix the content as inspired
-- Each curator can edit independently, and merge in the edits they like from other curators' versions
-
 ### 2012
 
 - Compare two versions of a page to easily to see changes and additions
@@ -130,6 +123,17 @@ The versions that we release, even in alpha and beta, must be compelling: people
 - "Node Collectives" allow the creation of distributed ownership of information on a given topic, serving up the items of the greatest interest to the individual visitor
 
 - Add your feature request here...
+
+### Past Milestones
+
+#### 30 June 2012: 
+
+- \[✓\] Crawl creative commons licensed websites into your own curated collections
+- \[✓\] Publish this collection to an appropriate subdomain, e.g. your-project.your-name.openyourproject.org
+- \[✓\] Remix the content as inspired
+- \[x\] Each curator can edit independently, and merge in the edits they like from other curators' versions
+- \[x\] Limited private alpha
+
 
 Open Source Ethos
 -----------------

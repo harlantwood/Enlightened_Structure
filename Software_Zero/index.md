@@ -1,12 +1,12 @@
 ---
-title: "enlightened structure Software Zero: Global-Scale Collaboration"
+title: "Software Zero: Global-Scale Collaboration"
 author: Harlan T Wood, Jack Senechal, Travis Wellman, Adam Apollo
 layout: post
 ---
 
 <img width="185" height="185" src="/IMG/massively-parallel-academic-research-sys1-300x200-2-185x185.png" class="thumbnail-post alignleft wp-post-image" />
 
-The mission of enlightened structure Software Zero is to create a platform for swarm intelligence to
+The mission of Software Zero is to create a platform for swarm intelligence to
 collaborate on a project, while retaining the edits and contributions of every author throughout the
 history of the collaboration. Contributors do not have to agree on a single version; each author can
 maintain their own latest version. This "branching" of creative works encourages a diversity of
@@ -137,7 +137,7 @@ The versions that we release, even in alpha and beta, must be compelling: people
 
 Open Source Ethos
 -----------------
-enlightened structure Software Zero is being developed as a volunteer effort, 
+Software Zero is being developed as a volunteer effort, 
 supported by our team's belief in the power and promise of these platforms.
 
 

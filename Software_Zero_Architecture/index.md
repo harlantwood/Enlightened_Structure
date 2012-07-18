@@ -4,7 +4,7 @@ author: Harlan T Wood, Jack Senechal, Travis Wellman
 layout: post
 ---
 
-enlightened structure Software Zero is designed to be _the minimum viable slice of massively parallel collaboration_:
+Software Zero is designed to be _the minimum viable slice of massively parallel collaboration_:
 
  * Composed of slim components, elucidated below
  * Components are open source, with maximally permissive licensing (MIT/GPL or CC0)

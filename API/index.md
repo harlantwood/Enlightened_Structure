@@ -1,7 +1,7 @@
-Enlightened Structure APIs
+enlightened structure APIs
 ==========================
 
-The Enlightened Structure technology stack is being implemented as a set of lean HTTP
+The enlightened structure technology stack is being implemented as a set of lean HTTP
 APIs. *This is a work in progress, and these APIs are likely to change before their official
 release.*  Your feedback is very welcome -- we want to make these APIs work for you.
 

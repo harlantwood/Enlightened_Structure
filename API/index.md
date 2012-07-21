@@ -1,5 +1,8 @@
-enlightened structure APIs
-==========================
+---
+title: "enlightened structure APIs"
+author: Harlan T Wood, Jack Senechal, Travis Wellman
+layout: post
+---
 
 The enlightened structure technology stack is being implemented as a set of lean HTTP
 APIs. *This is a work in progress, and these APIs are likely to change before their official

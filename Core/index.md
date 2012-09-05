@@ -19,6 +19,7 @@ Sharing Credit & Wealth
 Remixing Content
 ----------------
 
-* Current: [Github](https://help.github.com/) + [prose.io](http://prose.io/) (markdown editor) or better
-* Future: [Software_Zero](http://enlightenedstructure.org/Software_Zero/) or better
+[Github](https://help.github.com/) + [prose.io](http://prose.io/) (markdown editor) or better
+
+_(Future: [Software_Zero](http://enlightenedstructure.org/Software_Zero/) or better)_
 

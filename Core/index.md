@@ -1,3 +1,9 @@
+---
+title: "enlightened structure core"
+author: Harlan T Wood
+layout: post
+---
+
 Systems
 =======
 

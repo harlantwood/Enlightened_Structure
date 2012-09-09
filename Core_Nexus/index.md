@@ -1,5 +1,5 @@
 ---
-title: "enlightened structure core"
+title: "Core Nexus"
 author: Harlan T Wood
 layout: post
 ---

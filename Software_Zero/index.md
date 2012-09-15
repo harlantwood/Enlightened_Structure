@@ -17,10 +17,10 @@ versions and authors.
 The Software Zero launch rolls up the four main project areas of enlightened structure -- creative
 collaboration, [trust and reputation systems](/Trust_Exchange), [visual navigation
 of data](/Core_Network), and the [underlying data graph](/BaseParadigm) -- into one product release.
-We're calling it the "Minimal Awesome Product". That is, it's the basic elements of each of the
+That is, it's the basic elements of each of the
 enlightened structure project areas that make a great, usable, consumer-oriented web application to
 get the ball rolling. This is just the beginning, but we want it to be a great beginning, with solid
-tech and features that are useful for *you*.
+tech and features that are useful for _you_.
 
 Academic Applications
 ---------------------
@@ -97,49 +97,8 @@ We Value
 * Meritocracy
 * Freedom
 
-Roadmap
--------
-
-This is a living roadmap.  In general, the targets closer to "now" are more stable than the later targets, which are more likely to change as new information and opportunities emerge and are incorporated.  
-
-The versions that we release, even in alpha and beta, must be compelling: people want to use the software, and become its advocates.  
-
-### 2012
-
-- Compare two versions of a page to easily to see changes and additions
-
-- Authors can drop a JavaScript snippet into their site, which creates a "Remix" button on their page
-
-- Visually explore and navigate content collections through radial node network interfaces
-
-- Merge remixed versions back into existing authoring tools (starting with Wordpress)
-
-- Information in the data visualization is informed by users' trust ratings of authors and content.
-
-### 2013
-
-- Visually discover trending and relevant remixes of content, based on popularity and trust metrics
-
-- "Node Collectives" allow the creation of distributed ownership of information on a given topic, serving up the items of the greatest interest to the individual visitor
-
-- Add your feature request here...
-
-### Past Milestones
-
-#### 30 June 2012: 
-
-- \[✓\] Crawl creative commons licensed websites into your own curated collections
-- \[✓\] Publish this collection to an appropriate subdomain, e.g. your-project.your-name.openyourproject.org
-- \[✓\] Remix the content as inspired
-- \[x\] Each curator can edit independently, and merge in the edits they like from other curators' versions
-- \[x\] Limited private alpha
-
-
 Open Source Ethos
 -----------------
 Software Zero is being developed as a volunteer effort, 
 supported by our team's belief in the power and promise of these platforms.
 
-
-[Pearltrees]: http://www.pearltrees.com/#/N-fa=4899494&N-u=1_611709&N-p=41417635&N-s=1_4899504&N-f=1_4899504
-  

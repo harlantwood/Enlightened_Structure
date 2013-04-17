@@ -79,10 +79,10 @@ systems.
 Architectural Foundations
 -------------------------
 
-Building simple, stable, long-term foundations for a new generation of information topologies All of
-the technologies described rest on solid, distributed, ultra-scalable information foundations. Our
-data layer and our foundations are made to be shared with a rich ecosystem of current and
-forthcoming applications.
+All of the technologies described rest on 
+simple, scalable, distributed foundations for a new generation of information topologies. 
+The user-controlled data layer 
+is intentionally sharable with the coming wave of user-centric applications within the personal cloud ecosystem.
 
 We Value
 --------
@@ -96,9 +96,4 @@ We Value
 * Local storage
 * Meritocracy
 * Freedom
-
-Open Source Ethos
------------------
-Software Zero is being developed as a volunteer effort, 
-supported by our team's belief in the power and promise of these platforms.
 

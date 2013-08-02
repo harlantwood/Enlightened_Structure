@@ -14,5 +14,4 @@ Harlan brings a decade of software development and agile project management know
 <a class="readmore" href="http://www.harlantwood.net" target="_blank"><span>harlantwood.net</span></a>
 
 
-
 [Software Zero]: /Software_Zero

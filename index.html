@@ -22,16 +22,17 @@
       document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
     </script>
 
+    <link rel="stylesheet" href="plugin/colorbox/colorbox.css" />
+
+    <link rel="stylesheet" href="http://the.corenetwork.is/css/dropin.css" />
+
     <!--[if lt IE 9]>
-    <script src="lib/js/html5shiv.js"></script>
+      <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
 
-    <script>
-      var step = 0;                     
-      number_step = function() {
-        document.write( ++step + '.' );
-      }
-    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="plugin/colorbox/jquery.colorbox-min.js"></script>
+
   </head>
 
   <body>
@@ -41,6 +42,21 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
 
+        <section>
+          <div class="core-home" style="display: block;">
+            <p><a class='inline' href="#inline_content">CORE</a></p>
+            <script>
+              jQuery(document).ready(function () {
+                $(".inline").colorbox({
+                  opacity: 0.5,
+                  inline: true, 
+                  width: "88%"
+                });
+              });
+            </script>
+          </div>
+        </section>
+
         <section data-markdown>
           <script type="text/template">
             ## enlightened structures
@@ -49,7 +65,8 @@
         </section>
 
         <section data-sector="Red">
-          <section data-markdown>
+
+          <section data-markdown id="civilization-balls">
             <script type="text/template">
               ## Civilization Balls
               1. Think of everything digital you would want to take to a new planet, to restart a civilization from scratch.
@@ -110,6 +127,76 @@
 
     </div>
 
+
+    <!-- This contains the hidden content for inline calls -->
+    <div style='display:none'>
+      <div id='inline_content' style='padding:10px; background:#fff;'>
+        <div id="corenetwork">
+        <!-- Center Up -->
+        <a class="seal c0 v0"><p>CORE</p></a>
+        <a class="seal c0 u1"><p>node</p></a>
+        <a class="seal c0 u2"><p>node</p></a>
+        <a class="seal c0 u3"><p>node</p></a>
+        <!-- Center Down -->
+        <a class="seal c0 d1"><p>node</p></a>
+        <a class="seal c0 d2"><p>node</p></a>
+        <a class="seal c0 d3"><p>node</p></a>
+
+        <!-- RIGHT SIDE -->
+        <!-- Right-1 Up -->
+        <a class="seal r1 u1a"><p>node</p></a>
+        <a class="seal r1 u2a"><p>node</p></a>
+        <a class="seal r1 u3a"><p>node</p></a>
+        <!-- Right-2 Center-Up -->
+        <a class="seal r2 v0"><p>node</p></a>
+        <a class="seal r2 u1"><p>node</p></a>
+        <a class="seal r2 u2"><p>node</p></a>
+        <!-- Right-3 Up -->
+        <a class="seal r3 u1a"><p>node</p></a>
+        <a class="seal r3 u2a"><p>node</p></a>
+        <!-- Right-1 Down -->
+        <a class="seal r1 d1a"><p>node</p></a>
+        <a class="seal r1 d2a"><p>node</p></a>
+        <a class="seal r1 d3a"><p>node</p></a>
+        <!-- Right-2 Center-Down -->
+        <a class="seal r2 v0"><p>node</p></a>
+        <a class="seal r2 d1"><p>node</p></a>
+        <a class="seal r2 d2"><p>node</p></a>
+        <!-- Right-3 Down -->
+        <a class="seal r3 d1a"><p>node</p></a>
+        <a class="seal r3 d2a"><p>node</p></a>
+
+        <!-- LEFT SIDE -->
+        <!-- Left-1 Up -->
+        <a class="seal l1 u1a"><p>node</p></a>
+        <a class="seal l1 u2a"><p>node</p></a>
+        <a class="seal l1 u3a"><p>node</p></a>
+        <!-- Left-2 Center-Up -->
+        <a class="seal l2 v0"><p>node</p></a>
+        <a class="seal l2 u1"><p>node</p></a>
+        <a class="seal l2 u2"><p>node</p></a>
+        <!-- Left-3 Up -->
+        <a class="seal l3 u1a"><p>node</p></a>
+        <a class="seal l3 u2a"><p>node</p></a>
+        <!-- Left-1 Down -->
+        <a class="seal l1 d1a"><p>node</p></a>
+        <a class="seal l1 d2a"><p>node</p></a>
+        <a class="seal l1 d3a"><p>node</p></a>
+        <!-- Left-2 Center-Down -->
+        <a class="seal l2 v0"><p>node</p></a>
+        <a class="seal l2 d1"><p>node</p></a>
+        <a class="seal l2 d2"><p>node</p></a>
+        <!-- Left-3 Down -->
+        <a class="seal l3 d1a"><p>node</p></a>
+        <a class="seal l3 d2a"><p>node</p></a>
+
+        </div><!-- END CORENETWORK 36 -->
+
+      </div>
+    </div>
+  
+    
+    <script src="http://lvh.me:3000/js/dropin.js"></script>
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.min.js"></script>
 

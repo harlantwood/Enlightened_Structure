@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="plugin/colorbox/colorbox.css" />
 
     <link rel="stylesheet" href="http://the.corenetwork.is/css/dropin.css" />
+    <link rel="stylesheet" href="css/reveal-core-network.css" />
 
     <!--[if lt IE 9]>
       <script src="lib/js/html5shiv.js"></script>
@@ -41,21 +42,6 @@
 
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-
-        <section>
-          <div class="core-home" style="display: block;">
-            <p><a class='inline' href="#inline_content">CORE</a></p>
-            <script>
-              jQuery(document).ready(function () {
-                $(".inline").colorbox({
-                  opacity: 0.5,
-                  inline: true, 
-                  width: "88%"
-                });
-              });
-            </script>
-          </div>
-        </section>
 
         <section data-markdown>
           <script type="text/template">
@@ -195,11 +181,23 @@
       </div>
     </div>
   
-    
+    <div id="core-network-home">
+      <a href="#inline_content"><img src="../../img/corenetwork-icon.png" /></a>
+      <script>
+        jQuery(document).ready(function () {
+          $("#core-network-home a").colorbox({
+            opacity: 0.5,
+            inline: true, 
+            width: "88%"
+          });
+        });
+      </script>
+    </div>
+
     <script src="http://the.corenetwork.is/js/dropin.js"></script>
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.min.js"></script>
-	<script type="text/javascript" src="scripts/retina.js"></script>
+  	<script src="scripts/retina.js"></script>
 
     <script>
 

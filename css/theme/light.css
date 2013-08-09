@@ -8,6 +8,18 @@
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
+html { 
+  background: url(../../img/BG-Enlightened-Structure-Sphere.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../img/BG-Enlightened-Structure-Sphere.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../img/BG-Enlightened-Structure-Sphere.jpg', sizingMethod='scale')";
+
 body {
   /*background: #add9e4;*/
   /*background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);*/
@@ -16,11 +28,11 @@ body {
   /*background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);*/
   /*background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);*/
   /*background: radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);*/
-  background-color: #f7fbfc; 
+  /* background-color: #f7fbfc; */
   /*background: url(/img/BG-Enlightened-Structure-Sphere.jpg) 49% -55px scroll no-repeat;*/
-  background: url(../../img/BG-Enlightened-Structure-Sphere.jpg) 49% -55px scroll no-repeat;
-  background-position: center;
-  background-size: 100%;
+  /* background: url(../../img/BG-Enlightened-Structure-Sphere.jpg) 49% -55px fixed no-repeat; */
+  /* background-position: center; */
+  /* background-size: 100%; */
 }
 
 .reveal {

@@ -186,10 +186,14 @@
       <script>
         jQuery(document).ready(function () {
           $("#core-network-home a").colorbox({
-            opacity: 0.5,
-            inline: true, 
-            width: "88%"
-          });
+            inline: true,
+            width: "100%",
+            height: "100%",
+            transition: "fade",
+            scalePhotos: true,
+            fadeOut: 333,
+            speed: 333
+          }).focus(function (e) { e.target.blur(); } );
         });
       </script>
     </div>
@@ -209,6 +213,7 @@
         history: true,
         center: true,
         rollingLinks: false,
+        margin: 0.2,
 
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none

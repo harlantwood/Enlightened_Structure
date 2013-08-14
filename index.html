@@ -24,15 +24,20 @@
 
     <link rel="stylesheet" href="plugin/colorbox/colorbox.css" />
 
-    <link rel="stylesheet" href="http://the.corenetwork.is/css/dropin.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="plugin/colorbox/jquery.colorbox-min.js"></script>
+
     <link rel="stylesheet" href="css/reveal-core-network.css" />
+
+    <!-- <link rel="stylesheet" href="http://the.corenetwork.is/css/dropin.css" /> -->
+    <link rel="stylesheet" href="http://lvh.me:3000/css/dropin.css" />
+
+    <!-- <script src="http://the.corenetwork.is/js/dropin.js"></script> -->    
+    <script src="http://lvh.me:3000/js/dropin.js"></script>
 
     <!--[if lt IE 9]>
       <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="plugin/colorbox/jquery.colorbox-min.js"></script>
 
   </head>
 
@@ -62,7 +67,7 @@
             </script>
           </section>
 
-          <section data-markdown>
+          <section data-markdown id="trust-exchange">
             <script type="text/template">
               ## The Trust Exchange
             
@@ -117,66 +122,67 @@
     <!-- This contains the hidden content for inline calls -->
     <div style='display:none'>
       <div id='inline_content'>
-        <div id="corenetwork">
-        <!-- Center Up -->
-        <a class="seal c0 v0"><p>CORE</p></a>
-        <a class="seal c0 u1"><p>node</p></a>
-        <a class="seal c0 u2"><p>node</p></a>
-        <a class="seal c0 u3"><p>node</p></a>
-        <!-- Center Down -->
-        <a class="seal c0 d1"><p>node</p></a>
-        <a class="seal c0 d2"><p>node</p></a>
-        <a class="seal c0 d3"><p>node</p></a>
 
-        <!-- RIGHT SIDE -->
-        <!-- Right-1 Up -->
-        <a class="seal r1 u1a"><p>node</p></a>
-        <a class="seal r1 u2a"><p>node</p></a>
-        <a class="seal r1 u3a"><p>node</p></a>
-        <!-- Right-2 Center-Up -->
-        <a class="seal r2 v0"><p>node</p></a>
-        <a class="seal r2 u1"><p>node</p></a>
-        <a class="seal r2 u2"><p>node</p></a>
-        <!-- Right-3 Up -->
-        <a class="seal r3 u1a"><p>node</p></a>
-        <a class="seal r3 u2a"><p>node</p></a>
-        <!-- Right-1 Down -->
-        <a class="seal r1 d1a"><p>node</p></a>
-        <a class="seal r1 d2a"><p>node</p></a>
-        <a class="seal r1 d3a"><p>node</p></a>
-        <!-- Right-2 Center-Down -->
-        <a class="seal r2 v0"><p>node</p></a>
-        <a class="seal r2 d1"><p>node</p></a>
-        <a class="seal r2 d2"><p>node</p></a>
-        <!-- Right-3 Down -->
-        <a class="seal r3 d1a"><p>node</p></a>
-        <a class="seal r3 d2a"><p>node</p></a>
+        <div class="grids">
+          <div class="template grid" style="display: none;">
+            <!-- Center Up -->
+            <a class="seal c0 v0 core"><p></p></a>
+            <a class="seal c0 u1 sector_0 node_0"><p></p></a>
+            <a class="seal c0 u2 sector_0 node_1"><p></p></a>
+            <a class="seal c0 u3 sector_0 node_3"><p></p></a>
+            <!-- Center Down -->
+            <a class="seal c0 d1 sector_3 node_0"><p></p></a>
+            <a class="seal c0 d2 sector_3 node_1"><p></p></a>
+            <a class="seal c0 d3 sector_3 node_3"><p></p></a>
 
-        <!-- LEFT SIDE -->
-        <!-- Left-1 Up -->
-        <a class="seal l1 u1a"><p>node</p></a>
-        <a class="seal l1 u2a"><p>node</p></a>
-        <a class="seal l1 u3a"><p>node</p></a>
-        <!-- Left-2 Center-Up -->
-        <a class="seal l2 v0"><p>node</p></a>
-        <a class="seal l2 u1"><p>node</p></a>
-        <a class="seal l2 u2"><p>node</p></a>
-        <!-- Left-3 Up -->
-        <a class="seal l3 u1a"><p>node</p></a>
-        <a class="seal l3 u2a"><p>node</p></a>
-        <!-- Left-1 Down -->
-        <a class="seal l1 d1a"><p>node</p></a>
-        <a class="seal l1 d2a"><p>node</p></a>
-        <a class="seal l1 d3a"><p>node</p></a>
-        <!-- Left-2 Center-Down -->
-        <a class="seal l2 v0"><p>node</p></a>
-        <a class="seal l2 d1"><p>node</p></a>
-        <a class="seal l2 d2"><p>node</p></a>
-        <!-- Left-3 Down -->
-        <a class="seal l3 d1a"><p>node</p></a>
-        <a class="seal l3 d2a"><p>node</p></a>
+            <!-- RIGHT SIDE -->
+            <!-- Right-1 Up -->
+            <a class="seal r1 u1a sector_1 node_0"><p></p></a>
+            <a class="seal r1 u2a sector_1 node_2"><p></p></a>
+            <a class="seal r1 u3a sector_1 node_5"><p></p></a>
+            <!-- Right-2 Center-Up -->
+            <a class="seal r2 u1 sector_1 node_1"><p></p></a>
+            <a class="seal r2 u2 sector_1 node_4"><p></p></a>
+            <!-- Right-3 Up -->
+            <a class="seal r3 u1a sector_2 node_5"><p></p></a>
+            <a class="seal r3 u2a sector_1 node_3"><p></p></a>
+            <!-- Right-1 Down -->
+            <a class="seal r1 d1a sector_2 node_0"><p></p></a>
+            <a class="seal r1 d2a sector_3 node_2"><p></p></a>
+            <a class="seal r1 d3a sector_3 node_4"><p></p></a>
+            <!-- Right-2 Center-Down -->
+            <a class="seal r2 v0 sector_2 node_2"><p></p></a>
+            <a class="seal r2 d1 sector_2 node_1"><p></p></a>
+            <a class="seal r2 d2 sector_3 node_5"><p></p></a>
+            <!-- Right-3 Down -->
+            <a class="seal r3 d1a sector_2 node_4"><p></p></a>
+            <a class="seal r3 d2a sector_2 node_3"><p></p></a>
 
-        </div><!-- END CORENETWORK 36 -->
+            <!-- LEFT SIDE -->
+            <!-- Left-1 Up -->
+            <a class="seal l1 u1a sector_5 node_0"><p></p></a>
+            <a class="seal l1 u2a sector_0 node_2"><p></p></a>
+            <a class="seal l1 u3a sector_0 node_4"><p></p></a>
+            <!-- Left-2 Center-Up -->
+            <a class="seal l2 v0 sector_5 node_2"><p></p></a>
+            <a class="seal l2 u1 sector_5 node_1"><p></p></a>
+            <a class="seal l2 u2 sector_0 node_5"><p></p></a>
+            <!-- Left-3 Up -->
+            <a class="seal l3 u1a sector_5 node_4"><p></p></a>
+            <a class="seal l3 u2a sector_5 node_3"><p></p></a>
+            <!-- Left-1 Down -->
+            <a class="seal l1 d1a sector_4 node_0"><p></p></a>
+            <a class="seal l1 d2a sector_4 node_2"><p></p></a>
+            <a class="seal l1 d3a sector_4 node_5"><p></p></a>
+            <!-- Left-2 Center-Down -->
+            <a class="seal l2 d1 sector_4 node_1"><p></p></a>
+            <a class="seal l2 d2 sector_4 node_4"><p></p></a>
+            <!-- Left-3 Down -->
+            <a class="seal l3 d1a sector_5 node_5"><p></p></a>
+            <a class="seal l3 d2a sector_4 node_3"><p></p></a>
+
+          </div><!-- END GRID 36 -->
+        </div><!-- END GRIDS 36 -->
 
       </div>
     </div>
@@ -198,7 +204,6 @@
       </script>
     </div>
 
-    <script src="http://the.corenetwork.is/js/dropin.js"></script>
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.min.js"></script>
   	<script src="js/retina.js"></script>

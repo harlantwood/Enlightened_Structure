@@ -13,7 +13,7 @@
  * GLOBAL STYLES
  *********************************************/
 html { 
-  background: url(../../img/BG-Enlightened-Structure-Sphere.jpg) no-repeat center center fixed; 
+  background: url(../../img/BG-Enlightened-Structure-Sphere.jpg) no-repeat center center fixed !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

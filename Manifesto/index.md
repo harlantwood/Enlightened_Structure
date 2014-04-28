@@ -7,7 +7,7 @@ layout: post
 Manifesto
 =========
 
-The goal of Enlightened Structure is to facilitate the emergence of an ecosystem of technologies
+The goal of enlightened structure is to facilitate the emergence of an ecosystem of technologies
 and systems that make the world a better place. We will do this by creating a basic infrastructure
 of key technologies that will enable the desired ecosystem to self-organize.
 

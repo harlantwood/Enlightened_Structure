@@ -1,3 +1,9 @@
+---
+title: "Live Prototypes"
+author: Harlan T Wood
+layout: post
+---
+
 *  [sentence-level diff output] – highlighting the difference beween two versions of an article
 
 

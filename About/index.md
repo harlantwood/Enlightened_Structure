@@ -4,7 +4,7 @@ author:
 layout: default
 ---
 
-Enlightened Structure
+enlightened structure
 =====================
 
 What is the problem we are trying to solve?
@@ -12,7 +12,7 @@ What is the problem we are trying to solve?
   : Furthermore, current collaboration paradigms are limited – notably, it is difficult to collaborate with large numbers of people, especially when conflicting ideas are present.
 
 What is the goal of this project?
-  : The goal of Enlightened Structure is to enable and facilitate the emergence of a simple and powerful open platform for humanity to exchange its trust information, amalgamating existing trust ratings from many sources, feeding them into a free, open, globally distributed information network and API.
+  : The goal of enlightened structure is to enable and facilitate the emergence of a simple and powerful open platform for humanity to exchange its trust information, amalgamating existing trust ratings from many sources, feeding them into a free, open, globally distributed information network and API.
   : We work from first principles, focussing on both human and machine readability. Everything is content addressable, built on node graphs, and designed for next-generation in-browser 2D & 3D visualization and navigation.
 
 What is the scope of this project?

@@ -1,6 +1,6 @@
 --- 
 title: NodeCollective
-author: Harlan Knight Wood
+author: Harlan T Wood
 layout: post
 ---
 

@@ -6,6 +6,8 @@ layout: post
 
 <img src="/IMG/buckyball-185x185.png" class="thumbnail-post alignleft" />
 
+&emdash; A visual isomorphism engine &emdash;
+
 _Geometric System Interface_
 
 The Core Network is a social browser and visual interface based on the geometry and physics of space-time itself.  It traces our interactions and relationships with information displayed using colors and geometric shapes, while organizing them by shared keywords, categories, and proximity references. Through this organization of personal preferences and community interactions the system enables us to more clearly see how we are related to each other, as well as how closely we are connected.

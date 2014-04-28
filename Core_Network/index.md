@@ -8,7 +8,7 @@ layout: post
 
 &emdash; A visual isomorphism engine &emdash;
 
-The Core Network is a social browser and visual interface based on the geometry and physics of space-time itself.  It traces our interactions and relationships with information displayed using colors and geometric shapes, while organizing them by shared keywords, categories, and proximity references. Through this organization of personal preferences and community interactions the system enables us to more clearly see how we are related to each other, as well as how closely we are connected.
+The Core Network is a visual node browser based on the geometry and physics of space-time itself.  It traces our interactions and relationships with information displayed using colors and geometric shapes, while organizing them by shared keywords, categories, and proximity references. 
 
 The geometric system interface functions like a multidimensional map, with each user at the center of their own personal browser.  The user's social and information networks, from people to bookmarked websites, surround them elegantly displayed in a color-coded geometric matrix.  Items they  interact with regularly position themselves adjacent to their "avatar" in the honeycomb grid,  while items they interact with less often are displayed further away.  Each connection in the grid is organically organized by relationship categories based on similar tags or keywords.  For ease of display and efficient user referencing these categories are simply represented by color-coded points.
 
